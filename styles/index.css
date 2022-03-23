@@ -1,0 +1,128 @@
+/* Funtes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Variables */
+:root {
+    --base-color: #F5F5FA;
+    --title-color: #373737;
+    --sub-color: #848199;
+    --btn-color: #FF8E3C1A;
+    --btn-color-text: #FF8E3C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--base-color);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .header{
+        width: 90%;
+        margin: 40px auto;
+    }
+        .title{
+            color: var(--title-color);
+            font-weight: 600;
+            font-size: 56px;
+        }
+        .subtitulo{
+            font-weight: 400;
+            font-size: 16px;
+            color: var(--sub-color);
+        }
+    
+        .main{
+            background-color: #FFF;
+            width: 90%;
+            margin: 90px auto 60px auto;
+            padding: 40px 40px 0px 40px;
+            border-radius: 26px;
+            display: flex;
+            gap: 30px;
+        }
+            .card{
+                max-width: 25%;
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+            }
+                .price_text{
+                    font-size: 16px;
+                    color: var(--sub-color);
+                }
+                .price{
+                    display: inline;
+                    color: var(--title-color);
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                .title_card{
+                    color: var(--title-color);
+                    font-size: 28px;
+                    font-weight: 600;
+                    margin-top: 20px;
+                }
+                .description{
+                    color: var(--sub-color);
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin: 20px 0;
+                }
+                .option{
+                    font-size: 14px;
+                    color: var(--sub-color);
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+                .btn_add{
+                    background-color: var(--btn-color);
+                    color: var(--btn-color-text);
+                    font-size: 16px;
+                    font-weight: 700;
+                    padding: 16px 32px;
+                    border-radius: 90px;
+                    border: none;
+                    margin-top: 16px;
+                }
+
+                .opacity{
+                    color: #84819980;
+                }
+
+            /* Tarjeta destacada */
+            .card_dest{
+                background-color: #fd9246;
+                transform: translateY(-80px);
+                padding: 42px 25px 37px 34px;
+                border-radius: 26px;
+                box-shadow: 10px 15px 50px #373737;
+            }
+                .mejor{
+                    position: relative;
+                    left: 105px;
+                    bottom: 20px;
+                    background-color: #FFD5B6;
+                    padding: 6px 18px 5px 19px;
+                    width: fit-content;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #373737;
+                    border-radius: 13.5px;
+                    margin-bottom: 10px;
+                }
+                .span_dest{
+                    color: #373737;
+                }
+                .description{
+                    color: #373737
+                }
+                .black{
+                    background-color: #373737;
+                    color: #FFF;
+                }
